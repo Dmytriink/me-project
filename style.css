@@ -1,0 +1,61 @@
+/* CSS for the provided HTML structure */
+
+/* General reset and styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+  background-color: #1e3f63;
+  color: #ffffff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/* Navigation styling */
+.nav {
+  padding-right: 20px;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__item {
+  margin: 0 10px;
+}
+
+.nav_link {
+  color: #ffffff;
+  background-color: #456e8f;
+  border-radius: 4px;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav_link:hover {
+  background-color: #042d5a;
+  border-radius: 4px;
+}
